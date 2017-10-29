@@ -16,18 +16,19 @@ import com.example.yanvydra.activityhw.R;
 
 public class FragmentX extends Fragment {
 
+    private static final String TAG = "Fragment X";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("HOOP", "fragmentX oncreate");
+        Log.d(TAG, "fragmentX oncreate");
     }
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-       Log.d("HOOP", "fragmentX oncreateview");
+       Log.d(TAG, "fragmentX oncreateview");
         return inflater.inflate(R.layout.fragment_x, container, false);
 
     }
@@ -36,43 +37,43 @@ public class FragmentX extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
 
         super.onActivityCreated(savedInstanceState);
-        Log.d("HOOP", "fragmentX onActivityCreated");
+        Log.d(TAG, "fragmentX onActivityCreated");
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        Log.d("HOOP", "fragmentX onStart");
+        Log.d(TAG, "fragmentX onStart");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.d("HOOP", "fragmentX onresume");
+        Log.d(TAG, "fragmentX onresume");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        Log.d("HOOP", "fragmentX onpause");
+        Log.d(TAG, "fragmentX onpause");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        Log.d("HOOP", "fragmentX onstop");
+        Log.d(TAG, "fragmentX onstop");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.d("HOOP", "fragmentX ondestroy ");
+        Log.d(TAG, "fragmentX ondestroy ");
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        Log.d("HOOP", "fragmentX ondestroyview");
+        Log.d(TAG, "fragmentX ondestroyview");
     }
 
 

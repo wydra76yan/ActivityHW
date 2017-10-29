@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     public void addFragmentX(View v) {
 
         FragmentX fragmentX = new FragmentX();
